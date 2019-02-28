@@ -391,7 +391,8 @@ a.app_link {
 
 .about .features_list ul li {
   display: inline-block;
-  float: left;
+  text-align: left;
+/*  border: solid;*/
 }
 
 
@@ -746,6 +747,10 @@ footer .copyright a {
   color: #565555;
 }
 
+#servicePro{
+  color: #0097ec;
+}
+
 
 /*    Responsive CSS    */
 
@@ -817,7 +822,7 @@ footer .copyright a {
   }
   /*		About Section 		*/
   .about .features_list {
-    text-align: center;
+    text-align: left;
     margin: 0;
   }
   .about .features_list ul li {
