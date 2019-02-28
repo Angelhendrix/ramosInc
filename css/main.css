@@ -163,7 +163,7 @@ header .social li:first-child {
   position: relative;
   width: 100%;
   height: 690px;
-  background: url('../pics/Luxury3.jpg') no-repeat fixed center center;
+  background: url('pics/Luxury3.jpg') no-repeat fixed center center;
   background-size: cover;
 }
 
