@@ -472,7 +472,6 @@ a.app_link {
     }
     .yelp {
       width: 6em;  
-
     }
 
     .ratingYelp{
@@ -482,6 +481,10 @@ a.app_link {
     }
     h1.h1Yelp{
       display: inline-block;
+    }
+
+    .yelp-review{
+      border: solid;
     }
 
 
@@ -1116,6 +1119,16 @@ div.sectionTwo {}
   margin-right: auto;
   width: 15%;
 }
+/*table to huge destop*/
+@media only screen
+and (min-width: 768px)
+and (min-width: 992px)
+and (min-width: 1280px) {
+
+
+}
+
+
 
 @media only screen 
 and (min-device-width : 768px) 
@@ -1123,10 +1136,38 @@ and (max-device-width : 1024px)  {
 /* .hero{
     background: url('../pics/smallPicKit.jpg') no-repeat no-repeat fixed center center;
   }*/
+  div.containerYelp, .yelp{
+    padding: 0px
+    margin 0px;
+    float: center;
+    margin: auto;
+    width: 50%;
+  }
+  .details {
+    width: 35em;
+    height: 30em;
+    display: block;
+    padding: 10px;
+    margin: 0px 5px
+    border: solid red;
+/*display: none;*/
+  }
+  .app_features .details {
+  margin-bottom: 0px;
+}
 
-img.emailPic{
+img.emailPic, .rating2{
   display: none;
 }
 
-}
+ #LIC{
+  font-size: 20px;
+  margin-top: 20px;
+  float: right;
+  text-align: right;
+  display: unset;
+  border: solid;
+  }
 
+
+}
