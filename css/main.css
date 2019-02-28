@@ -24,7 +24,7 @@
 */
 
 
-/*		Fonts		*/
+/*    Fonts   */
 
 @font-face {
   font-family: 'open_regular';
@@ -51,7 +51,7 @@
 }
 
 
-/*		General CSS		*/
+/*    General CSS   */
 
 body {
   background: #faf9f9;
@@ -61,8 +61,8 @@ body {
 
 
 /*a:focus{
-	color: #fff!important;
-	text-decoration: none!important;
+  color: #fff!important;
+  text-decoration: none!important;
 }*/
 
 .container {
@@ -70,7 +70,7 @@ body {
 }
 
 
-/*		Header 		*/
+/*    Header    */
 
 header {
   position: relative;
@@ -89,7 +89,7 @@ header .logo {
 header .burger_icon {
   display: none;
   float: right;
-  background: #359663;
+  background: #0097ec;
   padding: 5px 10px;
   text-transform: uppercase;
   color: white;
@@ -107,7 +107,7 @@ header .burger_icon:hover {
 }
 
 header .burger_icon.active {
-  background: #0097ec;
+  background: red;
   color: #ffffff;
 }
 
@@ -156,7 +156,7 @@ header .social li:first-child {
 }
 
 
-/*		Hero section 		*/
+/*    Hero section    */
 
 .hero {
   display: block;
@@ -308,7 +308,7 @@ a.app_link {
 }
 
 
-/*		Featured on section 		*/
+/*    Featured on section     */
 
 .featured_on {
   width: 100%;
@@ -330,7 +330,7 @@ a.app_link {
 }
 
 
-/*		About section 		*/
+/*    About section     */
 
 .about {
   padding: 100px 0;
@@ -396,7 +396,7 @@ a.app_link {
 }
 
 
-/*		App features 		*/
+/*    App features    */
 
 .app_features {
   width: 100%;
@@ -765,7 +765,7 @@ footer .copyright a {
 }
 
 @media (max-width: 667px) {
-  /*		Header 		*/
+  /*    Header    */
   header .logo {
     margin-right: 0;
   }
@@ -805,7 +805,7 @@ footer .copyright a {
   header .social li {
     margin-left: 10px;
   }
-  /*		Hero section 		*/
+  /*    Hero section    */
   .hero .caption {
     margin-left: 0;
   }
@@ -817,14 +817,14 @@ footer .copyright a {
     padding-right: 0;
     text-align: center;
   }
-  /*		Featured on section		*/
+  /*    Featured on section   */
   .featured_on {
     padding: 25px 0 5px 0!important;
   }
   .featured_on ul li {
     margin-bottom: 25px!important;
   }
-  /*		About Section 		*/
+  /*    About Section     */
   .about .features_list {
     text-align: left;
     margin: 0;
@@ -841,7 +841,7 @@ footer .copyright a {
     display: block;
     margin-top: 20px;
   }
-  /*		Subscription section 		*/
+  /*    Subscription section    */
   .sub_box #mc-email,
   .sub_box #mc_submit {
     display: block;
@@ -1132,13 +1132,13 @@ and (min-width: 1280px) {
 
 @media only screen 
 and (min-device-width : 768px) 
-and (max-device-width : 1024px)  { 
+and (max-device-width : 1224px)  { 
 /* .hero{
     background: url('../pics/smallPicKit.jpg') no-repeat no-repeat fixed center center;
   }*/
   div.containerYelp, .yelp{
     padding: 0px
-    margin 0px;
+    margin 20px;
     float: center;
     margin: auto;
     width: 50%;
