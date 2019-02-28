@@ -761,7 +761,7 @@ footer .copyright a {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 667px) {
   /*		Header 		*/
   header .logo {
     margin-right: 0;
