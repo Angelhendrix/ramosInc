@@ -107,7 +107,7 @@ header .burger_icon:hover {
 }
 
 header .burger_icon.active {
-  background: #359663;
+  background: #0097ec;
   color: #ffffff;
 }
 
@@ -163,7 +163,7 @@ header .social li:first-child {
   position: relative;
   width: 100%;
   height: 690px;
-  background: url('../pics/luxury3.jpg') no-repeat fixed center center;
+  background: url('../pics/luxury3.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -691,7 +691,7 @@ a.app_link {
 }
 
 
-    .profile-pic {
+  .profile-pic {
   background: url('https://i.ibb.co/bKkwDhk/IMG-1590.jpg') 
   no-repeat 10% 19%;
   background-size: cover;
@@ -806,12 +806,7 @@ footer .copyright a {
   .hero .caption {
     margin-left: 0;
   }
-  .hero{
-    background: url('../pics/smallPicKit.jpg') no-repeat;
-    width: 360px;
-    height: 600px;
-
-  }
+ 
   .app_store_btn {
     display: block;
     width: 90%;
@@ -1120,5 +1115,18 @@ div.sectionTwo {}
   margin-left: auto;
   margin-right: auto;
   width: 15%;
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+ .hero{
+    background: url('../pics/smallPicKit.jpg') no-repeat no-repeat fixed center center;
+  }
+
+img.emailPic{
+  display: none;
+}
+
 }
 
