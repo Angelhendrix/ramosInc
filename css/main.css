@@ -806,6 +806,12 @@ footer .copyright a {
   .hero .caption {
     margin-left: 0;
   }
+  .hero{
+    background: url('../pics/smallPicKit.jpg') no-repeat;
+    width: 360px;
+    height: 600px;
+
+  }
   .app_store_btn {
     display: block;
     width: 90%;
