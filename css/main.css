@@ -1120,9 +1120,9 @@ div.sectionTwo {}
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  { 
- .hero{
+/* .hero{
     background: url('../pics/smallPicKit.jpg') no-repeat no-repeat fixed center center;
-  }
+  }*/
 
 img.emailPic{
   display: none;
