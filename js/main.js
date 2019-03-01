@@ -6,7 +6,7 @@ $(document).ready(function () {
 
   $('#listOfCities').append(services.map(c => $('<li>').text(c + ',')));
 
-
+console.log('helllooooo')
   // links to the carousel in the sevices HTML page
 
   let imageLinks = [
@@ -298,6 +298,64 @@ $(document).ready(function () {
 
   $('#next2').click(function () {
     moveToSelected2('next2');
+  });
+
+function moveToSelected3(element3) {
+
+    if (element3 == "next3") {
+      var selected3 = $(".selected3").next();
+    }
+    else if (element3 == "prev3") {
+      var selected3 = $(".selected3").prev();
+    }
+    else {
+      var selected3 = element3;
+    }
+
+    var next3 = $(selected3).next();
+    var prev3 = $(selected3).prev();
+    var prevSecond3 = $(prev3).prev();
+    var nextSecond3 = $(next3).next();
+
+    $(selected3).removeClass().addClass("selected3");
+
+    $(prev3).removeClass().addClass("prev3");
+    $(next3).removeClass().addClass("next3");
+
+    $(nextSecond3).removeClass().addClass("nextRightSecond3");
+    $(prevSecond3).removeClass().addClass("prevLeftSecond3");
+
+    $(nextSecond3).nextAll().removeClass().addClass('hideRight3');
+    $(prevSecond3).prevAll().removeClass().addClass('hideLeft3');
+
+  }
+  // Eventos teclado for carousel two
+  $(document).keydown(function (e) {
+    switch (e.which) {
+      case 37: // left
+        moveToSelected3('prev3');
+        break;
+
+      case 39: // right
+        moveToSelected3('next3');
+        break;
+
+      default:
+        return;
+    }
+    e.preventDefault();
+  });
+
+  $('#carousel3 div').click(function () {
+    moveToSelected3($(this));
+  });
+
+  $('#prev3').click(function () {
+    moveToSelected3('prev3');
+  });
+
+  $('#next3').click(function () {
+    moveToSelected3('next3');
   });
 
 
