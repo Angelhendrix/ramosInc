@@ -1,29 +1,3 @@
-/*
-
-
-    Template Name   : Capture
-    Template Author : pixelhint.com
-    Author Email    : contact@pixelhint.com
-    License         : pixelhint.com/license
-    
-    
-    *****************************************
-    
-    
-    - Header
-    - Hero section
-    - Featured on seaction
-    - About section
-    - App features section
-    - Testimonials section
-    - Subscription section
-    - Footer
-    - Responsive CSS
-    
-
-*/
-
-
 /*    Fonts   */
 
 @font-face {
@@ -99,7 +73,6 @@ header .burger_icon {
   -webkit-border-radius: 2px;
   border-radius: 2px;
   margin: 45px 10px 0 0;
- 
 }
 
 header .burger_icon:hover {
@@ -198,13 +171,12 @@ header .social li:first-child {
   margin: 0;
 }
 
-#back-to-top{
+#back-to-top {
   float: center;
   display: inline-block;
-    float: right;
-    margin-right: 88em: 
+  float: right;
+  margin-right: 88em:
 }
-
 
 a.app_store_btn {
   display: inline-block;
@@ -392,7 +364,7 @@ a.app_link {
 .about .features_list ul li {
   display: inline-block;
   text-align: left;
-/*  border: solid;*/
+  /*  border: solid;*/
 }
 
 
@@ -431,67 +403,76 @@ a.app_link {
 .app_features .details:nth-child(3n+1) {
   clear: both;
 }
+
+
 /* rating stars*/
 
 .rating {
-      width: 226px;
-      margin: 0 auto 1em;
-      font-size: 45px;
-      overflow:hidden;
-    }
+  width: 226px;
+  margin: 0 auto 1em;
+  font-size: 45px;
+  overflow: hidden;
+}
+
 .rating input {
   float: right;
   opacity: 0;
   position: absolute;
 }
-    .rating a,
-    .rating label {
-      float:right;
-      color: orange;
-      text-decoration: none;
-      -webkit-transition: color .4s;
-      -moz-transition: color .4s;
-      -o-transition: color .4s;
-      transition: color .4s;
-    }
-.rating label:hover ~ label,
-.rating input:focus ~ label,
+
+.rating a,
+.rating label {
+  float: right;
+  color: orange;
+  text-decoration: none;
+  -webkit-transition: color .4s;
+  -moz-transition: color .4s;
+  -o-transition: color .4s;
+  transition: color .4s;
+}
+
+.rating label:hover~label,
+.rating input:focus~label,
 .rating label:hover,
-    .rating a:hover,
-    .rating a:hover ~ a,
-    .rating a:focus,
-    .rating a:focus ~ a   {
-      color: orange;
-      cursor: pointer;
-    }
-    .rating2 {
-      direction: rtl;
-    }
-    .rating2 a {
-      float:none
-    }
-    .yelp {
-      width: 6em;  
-    }
+.rating a:hover,
+.rating a:hover~a,
+.rating a:focus,
+.rating a:focus~a {
+  color: orange;
+  cursor: pointer;
+}
 
-    .ratingYelp{
-      text-align: center;
-      display: inline-block
-      border: solid;
-    }
-    h1.h1Yelp{
-      display: inline-block;
-    }
+.rating2 {
+  direction: rtl;
+}
 
-    .yelp-review{
-      border: solid;
-    }
+.rating2 a {
+  float: none
+}
+
+.yelp {
+  width: 6em;
+}
+
+.ratingYelp {
+  text-align: center;
+  display: inline-block border: solid;
+}
+
+h1.h1Yelp {
+  display: inline-block;
+}
+
+.yelp-review {
+  border: solid;
+}
 
 
 /*    Testimonials section    */
 
 .testimonials {
   padding: 100px 0;
+  background-color: #ccc;
 }
 
 .testimonials .testimonials_list {
@@ -679,24 +660,21 @@ a.app_link {
   display: none;
 }
 
-
-
-    #abouts{
-      font-size: 44px; 
-      font-style: bold; 
-      font-variant: bold; 
-      font-weight: 700; 
-      line-height: 26.4px; 
-      text-align: left;
-}
-#P-about{
+#abouts {
+  font-size: 44px;
+  font-style: bold;
+  font-variant: bold;
+  font-weight: 700;
+  line-height: 26.4px;
   text-align: left;
 }
 
+#P-about {
+  text-align: left;
+}
 
-  .profile-pic {
-  background: url('https://i.ibb.co/bKkwDhk/IMG-1590.jpg') 
-  no-repeat 10% 19%;
+.profile-pic {
+  background: url('https://i.ibb.co/bKkwDhk/IMG-1590.jpg') no-repeat 10% 19%;
   background-size: cover;
   width: 120px;
   height: 7em;
@@ -707,20 +685,9 @@ a.app_link {
   top: -100px;
   margin: 20px;
   float: right;
-/*  border: solid;
-*/}
-
-
-
-/*<a href="https://ibb.co/xLf05qQ"><img src="https://i.ibb.co/pwR8Xjp/IMG-1668.jpg" alt="IMG-1668" border="0"></a>
-<a href="https://ibb.co/9bz1JJj"><img src="https://i.ibb.co/X7NK99T/IMG-4364.jpg" alt="IMG-4364" border="0"></a>
-<a href="https://ibb.co/Zc1wvzL"><img src="https://i.ibb.co/YfTKJBR/IMG-4428.jpg" alt="IMG-4428" border="0"></a>*/
-
-/*<a href="https://ibb.co/3Cn6QXn"><img src="https://i.ibb.co/bKkwDhk/IMG-1590.jpg" alt="IMG-1590" border="0"></a>
-<a href="https://ibb.co/Rz5Cnfp"><img src="https://i.ibb.co/SRLKTbX/IMG-1589.jpg" alt="IMG-1589" border="0"></a>
-<a href="https://ibb.co/XVsr1Y0"><img src="https://i.ibb.co/vDP6pXy/IMG-1588.jpg" alt="IMG-1588" border="0"></a>
-<a href="https://ibb.co/yFKBRCm"><img src="https://i.ibb.co/TMJqTGD/IMG-1591.jpg" alt="IMG-1591" border="0"></a>
+  /*  border: solid;
 */
+}
 
 
 /*    Footer    */
@@ -750,7 +717,7 @@ footer .copyright a {
   color: #565555;
 }
 
-#servicePro{
+#servicePro {
   color: #0097ec;
 }
 
@@ -758,7 +725,8 @@ footer .copyright a {
 /*    Responsive CSS    */
 
 @media (max-width: 360px) {
-  #slider, .featured_on li {
+  #slider,
+  .featured_on li {
     display: block;
     width: 90%;
   }
@@ -809,7 +777,6 @@ footer .copyright a {
   .hero .caption {
     margin-left: 0;
   }
- 
   .app_store_btn {
     display: block;
     width: 90%;
@@ -854,34 +821,39 @@ footer .copyright a {
   }
 }
 
+div.logoBtm {
+  width: 14em;
+  float: right;
+}
+
 
 /*serviceHtML*/
-/* moved to index2.css*/
 
+
+/* moved to index2.css*/
 
 
 /*smaller carousel*/
 
+
 /*table to huge destop*/
-@media only screen
-and (min-width: 768px)
-and (min-width: 992px)
-and (min-width: 1280px) {
 
-
+@media only screen and ( max-width: 375px) {
+  .logoM {
+    height: 8em;
+    width: 8em border:solid blue;
+  }
 }
 
+@media only screen and (min-width: 768px) and (min-width: 992px) and (min-width: 1280px) {}
 
-
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1224px)  { 
-/* .hero{
+@media only screen and (min-device-width: 768px) and (max-device-width: 1224px) {
+  /* .hero{
     background: url('../pics/smallPicKit.jpg') no-repeat no-repeat fixed center center;
   }*/
-  div.containerYelp, .yelp{
-    padding: 0px
-    margin 20px;
+  div.containerYelp,
+  .yelp {
+    padding: 0px margin 20px;
     float: center;
     margin: auto;
     width: 50%;
@@ -892,25 +864,21 @@ and (max-device-width : 1224px)  {
     display: block;
     padding: 10px;
     margin: 0px 5px
-    border: solid red;
-/*display: none;*/
+    /*display: none;*/
   }
   .app_features .details {
-  margin-bottom: 0px;
-}
-
-img.emailPic, .rating2{
-  display: none;
-}
-
- #LIC{
-  font-size: 20px;
-  margin-top: 20px;
-  float: right;
-  text-align: right;
-  display: unset;
-  border: solid;
+    margin-bottom: 0px;
   }
-
-
+  img.emailPic,
+  .rating2 {
+    display: none;
+  }
+  #LIC {
+    font-size: 20px;
+    margin-top: 20px;
+    float: right;
+    text-align: right;
+    display: unset;
+    border: solid;
+  }
 }

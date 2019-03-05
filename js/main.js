@@ -404,24 +404,21 @@ $('#checkbox').change(function(){
 
 
 
-var images = '.image-container',
-    slide = $(images+' img').innerWidth();
+// var images = '.image-container',
+//     slide = $(images+' img').innerWidth();
 
-function append(){$(images+' img').first().appendTo($(images));}
-function prepend(){$(images+' img').last().prependTo($(images));}
+// function append(){$(images+' img').first().appendTo($(images));}
+// function prepend(){$(images+' img').last().prependTo($(images));}
 
-$('.prev').click(function(){ prepend(); });
-$('.next').click(function(){ append();  });
-
-
-
+// $('.prev').click(function(){ prepend(); });
+// $('.next').click(function(){ append();  });
 
   var slideCount2 = $('#slider2 ul li').length;
   var slideWidth2 = $('#slider2 ul li').width();
   var slideHeight2 = $('#slider2 ul li').height();
   var sliderUlWidth2 = slideCount2 * slideWidth2;
   
-  $('#slider2').css({ width: slideWidth2+10, height: slideHeight2+90 });
+  $('#slider2').css({ width: slideWidth2, height: slideHeight2 });
   
   $('#slider2 ul').css({ width: sliderUlWidth2, marginLeft: - slideWidth2 });
   
@@ -454,6 +451,42 @@ $('.next').click(function(){ append();  });
     });
 
   //contact form//
+  var slideCount3 = $('#slider3 ul li').length;
+  var slideWidth3 = $('#slider3 ul li').width();
+  var slideHeight3 = $('#slider3 ul li').height();
+  var sliderUlWidth3 = slideCount3 * slideWidth3;
+  
+  $('#slider3').css({ width: slideWidth3, height: slideHeight3+90 });
+  
+  $('#slider3 ul').css({ width: sliderUlWidth3, marginLeft: - slideWidth3 });
+  
+    $('#slider3 ul li:last-child').prependTo('#slider3 ul');
+
+    function moveLeft3() {
+        $('#slider3 ul').animate({
+            left: + slideWidth
+        }, 200, function () {
+            $('#slider3 ul li:last-child').prependTo('#slider3 ul');
+            $('#slider3 ul').css('left', '');
+        });
+    };
+
+    function moveRight3() {
+        $('#slider3 ul').animate({
+            left: - slideWidth3
+        }, 200, function () {
+            $('#slider3 ul li:first-child').appendTo('#slider3 ul');
+            $('#slider3 ul').css('left', '');
+        });
+    };
+
+    $('a.control_prev3').click(function () {
+        moveLeft3();
+    });
+
+    $('a.control_next3').click(function () {
+        moveRight3();
+    });
 
   
 
