@@ -758,9 +758,9 @@ footer .copyright a {
 /*    Responsive CSS    */
 
 @media (max-width: 360px) {
-  .featured_on li {
+  #slider, .featured_on li {
     display: block;
-    width: 100%;
+    width: 90%;
   }
 }
 
