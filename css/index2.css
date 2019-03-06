@@ -239,7 +239,7 @@ a.control_next2 {
 }
 
 .gal-item a:after {
-  content: "\e003";
+  content: "\002a";
   font-family: 'Glyphicons Halflings';
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.75);
@@ -307,8 +307,8 @@ a.control_next2 {
   height: 40px;
   top: -40px;
   padding: 10px 25px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
+/*  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;*/
   text-align: left;
 }
 
@@ -329,7 +329,6 @@ a.control_next2 {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  border: solid red;
 }
 
 .gal-container .modal.fade.in .modal-dialog {
