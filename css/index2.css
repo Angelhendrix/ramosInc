@@ -239,7 +239,7 @@ a.control_next2 {
 }
 
 .gal-item a:after {
-  content: "\002a";
+  /*content: "\002a";*/
   font-family: 'Glyphicons Halflings';
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.75);
