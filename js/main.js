@@ -2,9 +2,9 @@ $(document).ready(function () {
 
   let cities = ['Dicovery Bay', 'Dublin', 'Oakley', 'Clayton', 'Brentwood', 'San Ramon', 'Lafayette', 'Danville', 'Antioch', 'Walnut Creek', 'Pittsburg', 'Pleasanton', 'Pleasant Hill', 'Concord'].sort();
 
-  let services = ['Concrete Work', 'Baths & Kitchens', ' Fire Restoration', ' Windows & Doors Installations', ' Carpentry', ' Water Restoration', ' Flooring: Vinyl, Tile, Slate, Ceramic & Travertine', ' Crown Molding', ' Room Addition', ' Siding', 'etc'].sort();
+  let services = ['- Concrete Work', '- Baths & Kitchens', '- Fire Restoration', '- Windows & Doors Installations', '- Carpentry', '- Water Restoration', '- Flooring: Vinyl, Tile, Slate, Ceramic & Travertine', '- Crown Molding', '- Room Addition', '- Siding', 'etc'].sort();
 
-  $('#listOfCities').append(services.map(c => $('<li>').text('- ' + c)));
+  $('#listOfCities').append(services.map(c => $('<li>').text(c + ', ')));
 
 console.log('helllooooo')
   // links to the carousel in the sevices HTML page
